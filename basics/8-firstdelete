@@ -1,2 +1,2 @@
 #!/bin/bash
-rm /tmp/betty
+rm /tmp/7-movethatfile/betty
