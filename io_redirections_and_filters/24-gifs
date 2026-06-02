@@ -1,2 +1,2 @@
 #!/bin/bash
-find . "[:almun:].gif" -type f -printf '%f\n'
+find . -name "*.gif" -type f -printf '%f\n'
