@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -k 7n | head -11 | cut -f 1
+cut -f 1 | uniq -c | sort -nr | head -11
