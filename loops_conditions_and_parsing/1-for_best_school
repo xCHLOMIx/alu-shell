@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This is the comment
 for i in "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School"; do
-	echo $i;
+	echo "$i";
 done
