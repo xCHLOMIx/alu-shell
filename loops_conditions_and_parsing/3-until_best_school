@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# 3-until_best_school content
+
+i="10"
+
+until [ $i == 0 ]; do
+	echo "Best School"
+	((i--))
+done
