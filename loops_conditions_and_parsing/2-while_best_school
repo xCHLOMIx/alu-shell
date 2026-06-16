@@ -1,4 +1,5 @@
 #!/bin/bash
+# This is a comment
 i="0"
 
 while [ $i -lt 11 ]; do
