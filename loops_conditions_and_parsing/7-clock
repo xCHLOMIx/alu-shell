@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Comment goes here
+
+hour="0"
+
+while [ $hour -lt  13 ]; do
+	minute="0"
+	while [ $minute -lt 60 ]; do
+		if [ $minute == 0 ]; then
+			echo "Hour: $hour"
+		else
+			echo "$minute"
+		fi
+		((minute++))
+	done
+
+	((hour++))
+done	
