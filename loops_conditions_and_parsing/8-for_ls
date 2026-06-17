@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # 8-for_ls file
 
-for item in "$(ls)"
+command="$(ls)"
+for item in $command
 do
 	echo $item | cut -d '-' -f 2
 done
