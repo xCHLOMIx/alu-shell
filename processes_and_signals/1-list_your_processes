@@ -1,0 +1,4 @@
+#!/usr/bin/env
+# 1-list_your_processes
+
+ps -eo uname,pid,pcpu,pmem,vsz,rss,stat,bsdstart,tname,bsdtime,args
