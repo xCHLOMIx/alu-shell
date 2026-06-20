@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # 1-list_your_processes
 
-ps -eo pid,tid,class,rtprio,ni,pri,psr,pcpu,stat,wchan:14,comm
+ps -eo --forest uname,pid,pcpu,pmem,vsz,rss,tname,stat,bsdstart,bsdtime,args
